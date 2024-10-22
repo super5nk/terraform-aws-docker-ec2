@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 module "docker_instance" {
-    source = "<super5nk/docker-instance/aws"
+    source = "super5nk/docker-instance/aws"
     key_name = "key-name"
 }
 ```
